@@ -28,13 +28,21 @@ export default {
           "0%": { transform: "translatex(-100%)", opacity: "0" },
           "100%": { transform: "translatex(0)", opacity: "1" }
         }
+        ,
+        toSpin:{
+          to:{
+            transform:"rotate(360deg)"
+          }
+        
+        }
       }
       ,
       animation: {
         heart: "heartbeat 2s infinite ",
         top: "toTop 1s linear",
         left: "toLeft 0.9s linear",
-        Right: "toRight 0.9s linear"
+        Right: "toRight 0.9s linear",
+        rotates:"toSpin 25s infinite"
 
       }
       ,
@@ -70,6 +78,7 @@ export default {
         "waves_top": "url(assets/shape_waves_top.svg)",
         "waves_bottom": "url(assets/shape_waves_bottom.svg)",
         "arrow_end": "url(assets/arrow_end.svg)",
+        
       }
       ,
       screens: {

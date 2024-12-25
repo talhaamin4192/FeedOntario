@@ -57,5 +57,7 @@
   .custom-hover{
     @apply md:hover:bg-white md:hover:shadow-lg md:hover:cursor-pointer bg-white md:bg-white-1;
   }
-  
+  .custom-anim{
+   @apply md:size-32 size-20 md:ml-32 md:bottom-[156px] md:left-1  absolute bottom-[143px] right-14 
+  }
 }
