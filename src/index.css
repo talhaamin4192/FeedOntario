@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
-  font-family: "Roboto-Regular",sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   src: url(../src/assets/Roboto-Regular.ttf);
 }
 
@@ -54,10 +55,12 @@
   .custom-squiggle {
     @apply [&::after]:bg-arrow_end relative [&::after]:absolute [&::after]:-right-3 [&::after]:-bottom-2 [&::after]:p-2 [&::after]:content-[""] [&::after]:bg-no-repeat
   }
-  .custom-hover{
+
+  .custom-hover {
     @apply md:hover:bg-white md:hover:shadow-lg md:hover:cursor-pointer bg-white md:bg-white-1;
   }
-  .custom-anim{
-   @apply md:size-32 size-20 md:ml-32 md:bottom-[156px] md:left-1  absolute bottom-[143px] right-14 
+
+  .custom-anim {
+    @apply md:size-32 size-20 md:ml-32 md:bottom-[156px] md:left-1 absolute bottom-[143px] right-14
   }
 }
