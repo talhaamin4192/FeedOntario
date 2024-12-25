@@ -33,7 +33,12 @@ export default {
           to:{
             transform:"rotate(360deg)"
           }
-        
+        }
+        ,
+        Set:{
+          "0%":{transform:"translateY(-100%)"},
+          "100%":{transform:"translateY(0)"}
+
         }
       }
       ,
@@ -42,8 +47,8 @@ export default {
         top: "toTop 1s linear",
         left: "toLeft 0.9s linear",
         Right: "toRight 0.9s linear",
-        rotates:"toSpin 25s infinite"
-
+        rotates:"toSpin 25s infinite",
+        setWidth:"Set 1s ease-in-out"
       }
       ,
       fontFamily: {

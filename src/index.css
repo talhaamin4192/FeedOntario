@@ -63,4 +63,7 @@
   .custom-anim {
     @apply md:size-32 size-20 md:ml-32 md:bottom-[156px] md:left-1 absolute bottom-[143px] right-14
   }
+  .custom-class{
+    @apply py-4 w-full  text-blue-1 flex justify-between
+  }
 }
