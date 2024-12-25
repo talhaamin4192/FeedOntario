@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Roboto-Regular",sans-serif;
+  src: url(../src/assets/Roboto-Regular.ttf);
+}
+
+@layer components {
+  .custom-btn {
+    @apply size-full flex items-center justify-center gap-2;
+  }
+
+  .custom-btn-2 {
+    @apply size-10 rounded-full;
+  }
+
+  .custom-div {
+    @apply flex items-center gap-4 py-4;
+  }
+
+  .custom-img {
+    @apply h-[260px] md:w-[360px] w-full rounded-tl-md rounded-tr-md group-hover:scale-105 transition-transform duration-700 object-cover
+  }
+
+  .custom-p {
+    @apply font-roboto group-hover:text-blue-2 text-xl focus:underline font-semibold text-blue-1
+  }
+
+  .custom-btn-3 {
+    @apply px-5 py-2 bg-customGreen text-white rounded-md text-sm font-semibold
+  }
+
+  .custom-donate-btn {
+    @apply px-6 py-4 flex items-center gap-3 bg-yellow-1 rounded-md font-bold text-blue-1 hover:scale-110 hover:text-white hover:bg-blue-1 transition-all duration-500
+  }
+
+  .custom-before {
+    @apply [&::before]:absolute [&::before]:left-0 [&::before]:content-[''] [&::before]:w-full [&::before]:h-full [&::before]:bg-no-repeat
+  }
+
+  .custom-after {
+    @apply [&::after]:absolute [&::after]:content-[''] [&::after]:w-full [&::after]:h-full [&::after]:bg-no-repeat
+  }
+
+  .custom-underline {
+    @apply hover:underline hover:decoration-blue-2;
+  }
+
+  .custom-placeholder {
+    @apply font-roboto placeholder-blue-2 block pl-4 pr-10 py-2 rounded-md
+  }
+
+  .custom-squiggle {
+    @apply [&::after]:bg-arrow_end relative [&::after]:absolute [&::after]:-right-3 [&::after]:-bottom-2 [&::after]:p-2 [&::after]:content-[""] [&::after]:bg-no-repeat
+  }
+  .custom-hover{
+    @apply md:hover:bg-white md:hover:shadow-lg md:hover:cursor-pointer bg-white md:bg-white-1;
+  }
+  
+}
