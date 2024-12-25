@@ -63,7 +63,7 @@ const Header = () => {
                 <button className='h-full px-3 bg-yellow-1 text-12 font-bold'>DONATE NOW</button>
             </nav>
             {isOpen && (
-                <div className='animate-setWidth h-screen w-full mt-16 text-p-18 font-semibold text-blue-1 bg-white-1 p-4' >
+                <div className='fixed top-0 z-50 animate-setWidth h-screen w-full mt-14 text-p-18 font-semibold text-blue-1 bg-white-1 p-4' >
                     <ul className=' '>
                         <li>
                             <button className='custom-class' >Our Programs<IoChevronDownOutline /></button>
