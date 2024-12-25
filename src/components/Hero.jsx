@@ -9,7 +9,7 @@ const Hero = () => {
       <div className=' w-full bg-heroBg bg-no-repeat bg-cover bg-center '>
         <div className=" flex flex-col-reverse md:flex-row size-full justify-between md:gap-11">
           <div className=" md:w-2/4 w-full justify-end flex flex-col gap-10 relative">
-            <img className='animate-top md:size-32 size-20 md:ml-28  absolute bottom-36 right-8 sm:static sm:bottom-auto sm:top-auto ' src={animImg} alt="" />
+            <img className='animate-top md:size-32 size-20 md:ml-28  absolute bottom-36 right-2 sm:static sm:bottom-auto sm:top-auto ' src={animImg} alt="" />
             <div className=" px-5 md:px-24 py-8 text-3xl md:text-5xl font-semibold relative text-opacity-90 text-blue-1 bg-blue-2 custom-before [&::before]:bg-waves [&::before]:-top-4">What's new</div>
           </div>
           <div className='animate-left md:w-2/5 w-full  md:pb-10 md:pr-12 p-12 [&>*]:mb-8 relative md:mt-20 '>
