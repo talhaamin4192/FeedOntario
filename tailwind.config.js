@@ -64,12 +64,12 @@ export default {
 
       },
       backgroundImage: {
-        heroBg: "url(src/assets/IMPACT_CoverImageDigital.jpg)",
-        waves: "url(src/assets/shape_waves_top_bluelight.svg)",
-        donateBg: "linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%), url(src/assets/AdobeStock_418983771-1600x1067.jpeg)",
-        "waves_top": "url(src/assets/shape_waves_top.svg)",
-        "waves_bottom": "url(src/assets/shape_waves_bottom.svg)",
-        "arrow_end": "url(src/assets/arrow_end.svg)",
+        heroBg: "url(/src/assets/IMPACT_CoverImageDigital.jpg)",
+        waves: "url(/src/assets/shape_waves_top_bluelight.svg)",
+        donateBg: "linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%), url(/src/assets/AdobeStock_418983771-1600x1067.jpeg)",
+        "waves_top": "url(/src/assets/shape_waves_top.svg)",
+        "waves_bottom": "url(/src/assets/shape_waves_bottom.svg)",
+        "arrow_end": "url(/src/assets/arrow_end.svg)",
       }
       ,
       screens: {
