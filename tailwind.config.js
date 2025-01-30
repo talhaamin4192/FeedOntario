@@ -52,7 +52,7 @@ export default {
       }
       ,
       fontFamily: {
-        "roboto": ['"Roboto-Regular"','sans-serif']
+        "roboto": '"Roboto-Regular", sans-serif',
       }
       ,
       borderWidth: {

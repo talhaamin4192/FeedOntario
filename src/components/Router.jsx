@@ -12,9 +12,7 @@ const Router = () => {
       path: "",
       element: {}
     }
-  ]
-    
-  )
+  ])
   return (
 
     <>
